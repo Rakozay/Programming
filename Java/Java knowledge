@@ -1,0 +1,52 @@
+Variables
+	- State and behaviour
+
+Primitive Data Types
+	- int, double, float, short, char etc.
+
+Arrays
+	- Multidimensional arrays
+		- Calculating length
+		- Arraycopy
+
+Operators
+	- Compound assignments
+	- Addition operator used for concatenating
+	- Unary
+		- The unary operators require only one operand; they perform various operations such as 		  incrementing/decrementing a value by one, negating an expression, or inverting the value 			  of a boolean.
+	- Equality and Relational
+	- Conditional 
+		- ?-operator explained: result = someCondition ? value1 : value2;
+		  if someCodition is true assign value1 to result if not value2 to result
+	- Bitwise and Bit shift
+
+Expressions, statements, blocks
+	- An expression is a construct made up of variables, operators, and method invocations, which 		  are constructed according to the syntax of the language, that evaluates to a single value. 
+	- Statements are roughly equivalent to sentences in natural languages. A statement forms a 		  complete unit of execution
+	- A block is a group of zero or more statements between balanced braces and can be used 	 	   anywhere a single statement is allow
+
+CFS (Control flow statements)
+	- If-then, if-then-else (100%)
+	- Switch statements
+		- Switch blocks
+	- Each break statement terminates the enclosing switch statement
+	- While and do-while
+	- For loops
+		- Enhanced for statements
+	- Branching statements
+		- Labed and unlabeled breaks
+		- Continue
+		- Return
+
+Classes and objects
+	- Inheritance subclasses etc.
+	- Class declaration extends, implements..
+	- Variable declaration member variables
+		- Member variables in a class equivalent to fields
+		- Variables in a method equivalent to local variables
+		- Parameters 
+	- A method's method signature e.g. the signature for a method could be 
+	  "calculateAnswer (double, int, double, double)" 
+      where the double and int are primitive datatypes
+	
+

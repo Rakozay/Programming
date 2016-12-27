@@ -1,14 +1,26 @@
 #!/bin/bash
 #author: Timur Bas <maox123@hotmail.com>
 
-#Basic mathematics in bash
+#Basic arithmetics in bash
 NUMBER=1905
 
 echo "What is 1905 plus 532?"
 echo "That must equal: $((NUMBER+532))"
 
+echo
+
 echo "What is 1905 subtracted by 532?"
 echo "That must equal: $((NUMBER-532))"
 
+echo
+
 echo "What is 1905 divided by 532?"
+ans=$(echo "scale=2; $NUMBER/532" | bc -l)
+echo "That must equal:" $ans
+
+echo
+
+echo "What is 1905 multiplied by 532?"
+let ans=$(echo "$NUMBER*532" | bc -l)
+echo "That must equal:" $ans
 #TO-DO find out how to calculate floats/doubles
